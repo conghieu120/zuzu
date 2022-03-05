@@ -1,0 +1,133 @@
+.content-3 {
+    margin-top: 85px;
+}
+
+.wraper--items_content_3 {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 40px;
+}
+
+.items-content_3 {
+    position: relative;
+    background-color: #fff;
+    border-radius: 16px;
+    border: 0.2px solid #cccc;
+    min-height: 875px;
+
+    &--actives{
+        border: 0;
+        box-shadow: $box-shadow;
+    }
+}
+
+.item--most_content_3 {
+    display: grid;
+    grid-template-columns: 6fr 4fr;
+    text-align: center;
+
+    & .dontcare {
+        background: white;
+        color: white;
+        font-weight: bold;
+        padding: 17px 0;
+        border-radius: 16px;
+    }
+
+    & .popular {
+        background: white;
+        color: white;
+        font-weight: bold;
+        padding: 17px 0;
+        border-radius: 0 16px 0 16px;
+    }
+
+    &--actives .popular {
+        background: #ff858d;
+        color: white;
+        font-weight: bold;
+        padding: 17px 0;
+        border-radius: 0 16px 0 16px;
+    }
+}
+
+.item--price_content_3 {
+    color: $text-color;
+    padding: 0 30px;
+
+    & sub {
+        vertical-align: top;
+    }
+
+    & h2 {
+        font-size: 24px;
+        font-weight: bold;
+        padding: 15px 0 30px;
+    }
+
+    & h3 {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    & span {
+        font-size: 50px;
+        font-weight: 500;
+    }
+}
+
+.item--desc_content_3 {
+    color: $blur-color;
+    line-height: 1.4;
+    padding: 0 30px 50px;
+    margin: 75px 0 0px;
+
+    & span {
+        display: block;
+    }
+}
+
+.item--feature_content_3{
+    padding: 0 30px;
+
+    & h2{
+        font-size: 24px;
+        color: $text-color;
+        font-weight: 600;
+        margin-bottom:35px;
+        padding: 10px 0 0 0;
+        border-top: 0.2px solid #cccc;
+    }
+
+    & ul{
+        min-height: 380px;
+    }
+
+    & li{
+        padding: 0 0 30px 0;
+        color: $blur-color;
+        align-items: center;
+    }
+
+    & li i {
+        font-family: "Font Awesome 5 Pro";
+        color: white;
+        background-color: $blur-color;
+        padding: 3px 4px;
+        border-radius: 50%;
+        margin-right: 5px;
+    }
+}
+
+.item--button_content-3{
+    position: absolute;
+    bottom: 65px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    & a{
+        color: $blur-color;
+    }
+}
+
